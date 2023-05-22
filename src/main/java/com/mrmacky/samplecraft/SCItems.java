@@ -1,6 +1,6 @@
-package com.yourname.yourmodid;
+package com.mrmacky.samplecraft;
 
-public class ModItems {
+public class SCItems {
     //Create DeferredRegister for items
 
     //Register Items

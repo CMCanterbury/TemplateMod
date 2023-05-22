@@ -1,6 +1,6 @@
-package com.yourname.yourmodid;
+package com.mrmacky.samplecraft;
 
-public class ModBlocks {
+public class SCBlocks {
     //Create DeferredRegister for blocks
 
     //Register Blocks

@@ -18,8 +18,8 @@ apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
 version = '1.0-1.19.3'
-group = 'com.yourname.yourmodid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'yourmodid'
+group = 'com.mrmacky.samplecraft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'samplecraft'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -159,12 +159,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "yourmodid",
-            "Specification-Vendor": "yourname",
+            "Specification-Title": "samplecraft",
+            "Specification-Vendor": "mrmacky",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"yourname",
+            "Implementation-Vendor" :"mrmacky",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
