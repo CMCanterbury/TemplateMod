@@ -19,6 +19,7 @@ public class SampleCraft
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        SCItems.register(modEventBus);
     }
 
 }
